@@ -1,0 +1,20 @@
+{
+  "name": "FateGO",
+  "version": "0.1.0",
+  "description": "Backend API for FateGO",
+  "main": "libs/app.js",
+  "scripts": {
+    "start": "node ./libs/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khay/fgo-api"
+  },
+  "dependencies": {    
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.10.2",
+    "express": "~4.1.1",    
+    "moment": "^2.13.0",
+    "mongoose": "^4.4.11"    
+  }
+}
